@@ -191,7 +191,7 @@ export default function Module() {
               return (
                 filteredData[category] && (
                   <div key={category} className="mb-16" id={category}>
-                    <h2 className="relative team-heading text-3xl font-bold text-red-4xl mb-6 text-center">{category}</h2>
+                    <h2 className="relative team-heading text-3xl font-bold text-gray-50 text-red-4xl mb-6 text-center">{category}</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                       {filteredData[category].map((module, index) => (
                         <div key={module.id || index} className="flex flex-col">
@@ -207,7 +207,7 @@ export default function Module() {
                             openModal={() => openModal(module)} // Pass the entire module object
                           />
                           {/* Get Rulebook Button */}
-                          {module.rulebook && (
+                          {/* {module.rulebook && (
                             <a
                               href={module.rulebook}
                               target="_blank"
@@ -216,7 +216,7 @@ export default function Module() {
                             >
                               Get Rulebook
                             </a>
-                          )}
+                          )} */}
                         </div>
                       ))}
                     </div>

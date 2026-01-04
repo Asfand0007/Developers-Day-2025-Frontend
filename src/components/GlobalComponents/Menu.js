@@ -32,7 +32,7 @@ export default function Menu() {
             <Link href="/" className="flex items-center my-2 gap-3">
               <Image src="/logo.png" alt="Logo" width={60} height={60} className="rounded-full" />
               <span className="text-xl md:text-2xl font-bold text-white hidden sm:block">
-                Developers Day 2025
+                Developers Day 2026
               </span>
             </Link>
 

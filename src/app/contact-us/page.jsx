@@ -150,33 +150,39 @@ const Page = () => {
           hoverFillColor="#222"
         />
         <div className="relative w-full px-5 pb-2 pt-32 mb-0 flex items-center justify-center">
-          <h1 className="text-3xl font-bold">Contact Us</h1>
+          <h1 className="text-4xl font-bold text-gray-100">Contact Us</h1>
         </div>
 
         <div className="flex flex-wrap gap-x-4 gap-y-0 h-max items-center justify-center py-6">
           <Card
-            name={"Abubakr Danish"}
-            phone={"+92 333 2475885"}
-            designation={"Secretary"}
+            name={"+92 332 3301210"}
+            phone={"+92 311 2025533"}
+            designation={"President"}
             title={"For Collaborations"}
-          />
+            />
           <Card
-            name={"Hanzala Shamsi"}
-            phone={"+92 344 0775484"}
+            name={"Muhammad Hasnain"}
+            phone={"+92 311 2025533"}
+            designation={"Vice President"}
+            title={"For Collaborations"}
+            />
+            <Card
+              name={"Ahmed Mirza"}
+              phone={"+92 336 1200715"}
+              designation={"Director Marketing"}
+              title={"For Sponsorships"}
+            />
+          <Card
+            name={"Shoaib Raza"}
+            phone={"+92 333 0201433"}
             designation={"General Secretary"}
-            title={"For Registration"}
+            title={"For Genearl Inquiries"}
           />
           <Card
-            name={"Muhammad Shaheer Luqman"}
-            phone={"+92 310 0124127"}
+            name={"Asfandyar Khanzada"}
+            phone={"+92 331 3132716"}
             designation={"Director Technology"}
             title={"For Competition"}
-          />
-          <Card
-            name={"Wajheeh Ali Khan"}
-            phone={"+92 331 2321775"}
-            designation={"Director Standards"}
-            title={"For General Inquiries"}
           />
         </div>
       </div>

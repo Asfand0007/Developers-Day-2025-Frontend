@@ -104,11 +104,14 @@ const ModuleModal = ({
                             >
                                 Close
                             </Button>
-                            <Link href={"/registration"}>
+                            <div className="bg-[#d32f2f] text-white py-2 px-4 rounded-md text-sm">
+                                Competition Ended
+                            </div>
+                            {/* <Link href={"/registration"}>
                             <Button className="bg-[#d32f2f] text-white py-2 px-4 rounded-md text-sm">
                                 Register Now
                             </Button>
-                            </Link>
+                            </Link> */}
                         </div>
                         <Button 
                             onClick={handleClose} 

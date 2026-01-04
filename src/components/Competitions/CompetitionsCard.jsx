@@ -105,7 +105,7 @@ export default function ModuleCard({
                 transition={{ duration: 0.2 }}
               >
                 {/* Get Rulebook Button */}
-                {rulebook && (
+                {/* {rulebook && (
                   <a
                     href={rulebook}
                     target="_blank"
@@ -114,7 +114,7 @@ export default function ModuleCard({
                   >
                     Get Rulebook
                   </a>
-                )}
+                )} */}
                 <Button
                   className="bg-red-700 hover:bg-red-800 text-white text-sm md:text-base rounded-[12px] h-10 md:h-12"
                   onClick={() => openModal({

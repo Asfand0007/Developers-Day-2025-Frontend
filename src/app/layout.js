@@ -11,8 +11,7 @@ const lexend = Lexend({
 });
 
 export const metadata = {
-  title: "Developers Day 2025",
-  description: "Developers Day is the inter university flagship events in whole Pakistan, hosted by FAST NUCES, Karachi",
+  title: "Developers Day",  description: "Developers Day is the inter university flagship events in whole Pakistan, hosted by FAST NUCES, Karachi",
 };
 
 export default function RootLayout({ children }) {
