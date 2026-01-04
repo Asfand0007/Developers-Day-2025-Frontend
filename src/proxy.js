@@ -1,24 +1,25 @@
 import { NextResponse } from 'next/server';
 
 export function proxy(request) {
-  const url = request.nextUrl.clone();
+  // const url = request.nextUrl.clone();
   
-  // Allow the homepage and static assets
-  if (url.pathname === '/' || 
-      url.pathname.startsWith('/_next/') || 
-      url.pathname.startsWith('/favicon.ico') ||
-      url.pathname.startsWith('/logo.png')) {
-    return NextResponse.next();
-  }
+  // // Allow the homepage and static assets
+  // if (url.pathname === '/' || 
+  //     url.pathname.startsWith('/_next/') || 
+  //     url.pathname.startsWith('/favicon.ico') ||
+  //     url.pathname.startsWith('/logo.png')) {
+  //   return NextResponse.next();
+  // }
   
-  // Redirect all other routes to the homepage
-  url.pathname = '/';
-  return NextResponse.redirect(url);
+  // // Redirect all other routes to the homepage
+  // url.pathname = '/';
+  // return NextResponse.redirect(url);
+   return NextResponse.next();
 }
 
-export const config = {
-  matcher: [
-    // Match all routes except static files, api routes, and _next
-    '/((?!api|_next/static|_next/image|favicon.ico|logo.png).*)',
-  ],
-}; 
+// export const config = {
+//   matcher: [
+//     // Match all routes except static files, api routes, and _next
+//     '/((?!api|_next/static|_next/image|favicon.ico|logo.png).*)',
+//   ],
+// }; 

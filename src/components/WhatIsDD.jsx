@@ -61,7 +61,7 @@ const WhatIsDD = () => {
 
   return (
     <div className="relative z-10 w-full px-4 md:px-10 pt-10 flex items-center justify-center flex-col gap-4 text-center overflow-hidden">
-      <h1 ref={heading} className="text-2xl md:text-3xl max-w-[1000px] font-bold">
+      <h1 ref={heading} className="text-2xl md:text-3xl max-w-[1000px] font-bold text-gray-100">
         What is <span className="text-red-600">Developers Day</span>?
       </h1>
 

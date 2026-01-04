@@ -1,16 +1,21 @@
 import Image from "next/image";
 import Squares from "@/components/Squares/Squares";
+import Hero from "@/components/Hero";
+import WhatIsDD from "@/components/WhatIsDD";
+import Stats from "@/components/Stats";
+import Project from "@/components/Project";
+import PageHeader from "@/components/3js/Home";
 
 export default function Home() {
   return (
     <>
       <div className="py-10 bg-gradient-to-br from-[#141414] to-[#0a0a0a] relative min-h-screen flex flex-col items-center justify-center">
-        <Squares
+        {/* <Squares
           squareSize={40}
           borderColor="#000"
         />
-        
-        <div className="relative z-10 text-center px-4">
+         */}
+        {/* <div className="relative z-10 text-center px-4">
           <div className="mb-10 flex justify-center">
             <Image src="/logo.png" alt="Developers Day Logo" width={180} height={180} className="rounded-full" />
           </div>
@@ -36,7 +41,12 @@ export default function Home() {
             We appreciate all participants, sponsors, and attendees who made this event a success.
             <br />Stay tuned for future events!
           </p>
-        </div>
+        </div> */}
+        {/* <Home /> */}
+              <Hero />
+      <WhatIsDD />
+      <Stats />
+      <Project />
       </div>
     </>
   );

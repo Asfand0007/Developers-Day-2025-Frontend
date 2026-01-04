@@ -23,7 +23,7 @@ const Stats = () => {
     });
   }, []);
   return (
-    <div className="flex items-center justify-center flex-col gap-4 px-10 pb-10">
+    <div className="flex items-center justify-center flex-col gap-4 px-10 pb-10 text-gray-100">
       <h1 className="text-3xl font-bold" ref={heading}>
         Stats
       </h1>
