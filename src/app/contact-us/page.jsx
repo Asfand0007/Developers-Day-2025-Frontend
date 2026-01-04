@@ -155,7 +155,7 @@ const Page = () => {
 
         <div className="flex flex-wrap gap-x-4 gap-y-0 h-max items-center justify-center py-6">
           <Card
-            name={"+92 332 3301210"}
+            name={"Neha Amir"}
             phone={"+92 311 2025533"}
             designation={"President"}
             title={"For Collaborations"}
